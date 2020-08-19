@@ -27,7 +27,7 @@ int main(){
       printf("Dictionary has %d items\n", size(D));
    }
 
-   insert(D, "poop", "donkey");
+   insert(D, "hot", "lava");
    if(size(D)!=0){
       printf("Dictionary has %d items\n", size(D));
    }
@@ -38,7 +38,7 @@ int main(){
       printf("This key exists\n");
    }
 
-   delete(D, "poop");
+   delete(D, "hot");
 
    if(size(D)!=0){
       printf("Dictionary has %d items\n", size(D));
